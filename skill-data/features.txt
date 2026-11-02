@@ -17,10 +17,36 @@ route | title | description
 /friend-requests | Friend requests | Cancel sent requests, handle received ones in bulk
 /follows | Bulk unfollow | People and pages you follow
 /groups | Bulk leave groups | Manage and leave joined groups
+/pages | Liked pages | Export liked pages, unlike in bulk
+/blocked | Bulk unblock | See your block list, unblock many at once
+/shortcuts | Facebook settings shortcuts | Jump to Facebook settings, security, your data pages
 /hide-profile-sections | Hide profile | Show less information on your profile
 /fb-avatar-shield | Avatar shield | Turn on profile picture guard
 /notes | Messenger notes | Manage your notes on Messenger
 /get-access-token | Access token | Get your account access token
+/autorun | Extension (free) | Hide sponsored posts, right-column ads, "People you may know", Reels…
+/autorun | Facebook ad blocker | Hide sponsored posts, right-column ads, "People you may know", Reels…
+/autorun | Hide "Suggested for you" | Remove posts from pages/groups you do not follow from News Feed
+/autorun | Anonymous Facebook story viewer | Watch stories without showing up in the viewer list
+/autorun | Hide Messenger read receipts | Read messages without "seen" (incl. encrypted chats). Turn off to restore
+/autorun | Invisible Messenger messages | Encode text between >< — only extension users can read it, password optional
+/autorun | Facebook video download button | Adds a download button on every Facebook video and reel
+/autorun | Facebook video controls | Adds seek bar and controls to videos/reels
+/autorun | Show total post reactions | Show total reactions even when Facebook hides them
+/autorun | Block News Feed auto-refresh | Facebook stops reloading the feed when you come back to the tab
+/autorun | Pause Facebook feeds | Fewer distractions: block home, stories, video, groups, marketplace
+/autorun | Anonymous Instagram story viewer | Watch Instagram stories without "seen"
+/autorun | Right-click Instagram images | Enable right-click to save Instagram images
+/autorun | Threads video download button | Download videos in Threads posts and replies
+/autorun | TikTok video download button | Download watermark-free videos right on TikTok
+/autorun | Bulk TikTok / Douyin download | Pick and download many videos of a TikTok/Douyin channel
+/autorun | Block seen on Zalo | Read Zalo Web messages without "seen"
+/autorun | Hide typing on Zalo | The other person cannot see you typing on Zalo Web
+/autorun | Lock websites with a password | Password-protect Facebook, Messenger or any site
+/autorun | Magnify any image | Hover an image and zoom, or press Ctrl twice
+/autorun | Track web time | See how long you spend on each website per day
+/autorun | Detect videos on any site | Detects playing HLS/DASH/MP4 videos to download via Social AIO
+/autorun | Block ad links | Warn when opening ad or fake links
 /autorun | Automation | Block "seen", hide ads, video download buttons, image zoom, web lock… turn on once
 /autorun | AutoRun on pages (free) | Block "seen", hide ads, video download buttons, image zoom, web lock… turn on once
 /auto/comment | Auto reply comments | Watch posts, filter comments by rules and reply automatically
@@ -36,6 +62,7 @@ route | title | description
 /downloader?tab=video | Download from link | Facebook, TikTok, Douyin, Bilibili, Google Drive (even download-blocked videos)
 /downloader?tab=video | Video downloader | Facebook, TikTok, Douyin, Bilibili, Google Drive (even download-blocked videos)
 /downloader?tab=doc | Document & PDF downloader | Download-blocked Drive PDFs, Scribd, Studocu — no login
+/downloader?tab=stream | Stream downloader (m3u8) | Download HLS (m3u8) / DASH (mpd) videos from any site, the extension finds the link
 /zalo | Zalo | Friends, groups, members, mutual groups, user lookup by phone
 /zalo | Zalo manager | Friends, groups, members, mutual groups, user lookup by phone
 /youtube-subs | YouTube | View and unsubscribe YouTube channels in bulk
@@ -44,8 +71,58 @@ route | title | description
 /search | Search tools | Useful search tools for detectives
 /ip-info | IP info | Everything about an IP address
 /ip-location | Bulk IP location | Locate many IP addresses
+/github-osint | Github OSINT | Look up info and emails from a Github account
+/cheat-sheets | OSINT cheat sheets | Cheat sheets of investigation tricks
+/metaosint | MetaOSINT | Directory of hundreds of OSINT tools
+/osint-sources | OSINT sources | Collected data sources for investigations
+/webcheck | WebCheck | Analyse a website: IP, DNS, SSL, tech stack…
+/map | Vietnam provinces map | New Vietnam provinces map after merger
 /desktop | Utilities | All extra tools, OSINT and games on one Windows/macOS-style desktop — open many windows at once
 /desktop | AIO Desktop | All extra tools, OSINT and games on one Windows/macOS-style desktop — open many windows at once
 /json-to-excel | JSON to Excel | Convert downloaded JSON data to Excel
 /invisible-text | Invisible text | Generate invisible text to hide secrets
 /wheel-of-names | Hack Wheel of Names | Pick the wheel result in advance
+/blog | Social AIO Blog | Guides and tips for Facebook, Instagram, TikTok
+/web-timer | Web timer | Stats of time spent on each website
+/time-horizon | Time Horizon | Interactive world history timeline
+/tv-remote | TV remote | Control your smart TV from the browser
+/json-crack | JSON Crack | View JSON as a graph
+/md-to-word | Markdown to Word | Convert Markdown (ChatGPT, AI) to Word
+/md-editor | Markdown editor | Write and preview Markdown
+/pixel-diff | Pixel diff | Find differences between 2 images
+/it-tools | IT Tools | Handy tools for developers: encode, convert, generate…
+/online-tools | Online Tools | Collection of common online tools
+/cyberchef | CyberChef | Decode, encode and analyse data
+/webcrack | Webcrack | Deobfuscate JavaScript code
+/de4js | De4Js | JavaScript deobfuscator
+/deobfjs | DeObf Js | JavaScript deobfuscator
+/thiings | Thiings | Free 3D icon library
+/simple-icons | Simple Icons | SVG brand logo icons
+/iconify | Iconify | Hundreds of thousands of free icons
+/emojidb | EmojiDB | Find and copy emojis
+/cheatsh | Cheat.sh | Quick programming command cheat sheets
+/useful-scripts | Useful Scripts | Extension with 200+ handy scripts for any site
+/aiobuff | AIO Buff | Like, view, follow boosting service for many platforms
+/store/unlock | Account unlock | Help unlocking and recovering Facebook accounts
+/store/accounts | Accounts store | Buy accounts for various platforms
+/gamehub24 | Games & fun | Board and online games with friends
+/gamehub24 | Gamehub24 | Board and online games with friends
+/duckrace | Hack Duck Race | Pick the winning duck in advance
+/aurora-os | Aurora OS | macOS-like OS in your browser
+/win11 | Windows 11 / 10 / XP / 98 / 96 | Try classic Windows versions in the browser
+/hacker-simulator | Hacker Simulator | Pretend to be a movie hacker
+/lol2d | MOBA2D | 2D MOBA game in the browser
+/venge-io | Venge.io | Online shooter
+/zombsroyale | Zombs Royale | 2D battle royale
+/pong-retro | Pong Retro / Hyper Pong | Classic pong game
+/jump-king | Jump King | The famous tower jumping game
+/angry-birds | Angry Birds | Slingshot the birds
+/doodle-halloween | Halloween Doodle | Google Halloween doodle game
+/sandboxels | Sandboxels | Falling sand physics sandbox
+/mandelbrot | Mandelbrot | Explore an infinite fractal
+/webgl-fluid | Fluid simulation | Paint colorful fluid with the mouse
+/internet-map | Internet map | Map of the websites of the world
+/stellarium | Stellarium | Real-time night sky viewer
+/solar-system | Solar System | 3D solar system (incl. NASA version)
+/asteroids | Asteroids | Asteroids around Earth
+/multiverse | Multiverse | Scale from tiny particles to the universe

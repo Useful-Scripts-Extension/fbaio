@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T15:57:46.959Z",
+  "updatedAt": "2026-11-02T16:41:47.547Z",
   "features": [
     {
       "key": "facebook",
@@ -141,6 +141,30 @@
           "description": "Manage and leave joined groups"
         },
         {
+          "key": "fb-pages",
+          "children": [],
+          "title": "Liked pages",
+          "icon": "fa-solid fa-flag",
+          "link": "/pages",
+          "description": "Export liked pages, unlike in bulk"
+        },
+        {
+          "key": "fb-blocked",
+          "children": [],
+          "title": "Bulk unblock",
+          "icon": "fa-solid fa-ban",
+          "link": "/blocked",
+          "description": "See your block list, unblock many at once"
+        },
+        {
+          "key": "fb-shortcuts",
+          "children": [],
+          "title": "Facebook settings shortcuts",
+          "icon": "fa-solid fa-link",
+          "link": "/shortcuts",
+          "description": "Jump to Facebook settings, security, your data pages"
+        },
+        {
           "key": "fb-hide-profile",
           "children": [],
           "title": "Hide profile",
@@ -177,6 +201,191 @@
       "icon": "fa-brands fa-facebook",
       "link": "/bulk-downloader?platform=Facebook",
       "description": "Photos, videos, reels, posts, joined groups, liked pages… of anyone, even locked profiles"
+    },
+    {
+      "key": "extension",
+      "children": [
+        {
+          "key": "ext-fb-ads",
+          "children": [],
+          "title": "Facebook ad blocker",
+          "icon": "fa-solid fa-rectangle-ad",
+          "link": "/autorun",
+          "description": "Hide sponsored posts, right-column ads, \"People you may know\", Reels…"
+        },
+        {
+          "key": "ext-fb-suggested",
+          "children": [],
+          "title": "Hide \"Suggested for you\"",
+          "icon": "fa-solid fa-eye-slash",
+          "link": "/autorun",
+          "description": "Remove posts from pages/groups you do not follow from News Feed"
+        },
+        {
+          "key": "ext-fb-seen-story",
+          "children": [],
+          "title": "Anonymous Facebook story viewer",
+          "icon": "fa-solid fa-user-secret",
+          "link": "/autorun",
+          "description": "Watch stories without showing up in the viewer list"
+        },
+        {
+          "key": "ext-fb-read-receipts",
+          "children": [],
+          "title": "Hide Messenger read receipts",
+          "icon": "fa-solid fa-comment-slash",
+          "link": "/autorun",
+          "description": "Read messages without \"seen\" (incl. encrypted chats). Turn off to restore"
+        },
+        {
+          "key": "ext-fb-invisible-msg",
+          "children": [],
+          "title": "Invisible Messenger messages",
+          "icon": "fa-solid fa-lock",
+          "link": "/autorun",
+          "description": "Encode text between >< — only extension users can read it, password optional"
+        },
+        {
+          "key": "ext-fb-video-btn",
+          "children": [],
+          "title": "Facebook video download button",
+          "icon": "fa-solid fa-download",
+          "link": "/autorun",
+          "description": "Adds a download button on every Facebook video and reel"
+        },
+        {
+          "key": "ext-fb-video-control",
+          "children": [],
+          "title": "Facebook video controls",
+          "icon": "fa-solid fa-sliders",
+          "link": "/autorun",
+          "description": "Adds seek bar and controls to videos/reels"
+        },
+        {
+          "key": "ext-fb-reactions",
+          "children": [],
+          "title": "Show total post reactions",
+          "icon": "fa-solid fa-heart",
+          "link": "/autorun",
+          "description": "Show total reactions even when Facebook hides them"
+        },
+        {
+          "key": "ext-fb-no-refresh",
+          "children": [],
+          "title": "Block News Feed auto-refresh",
+          "icon": "fa-solid fa-rotate",
+          "link": "/autorun",
+          "description": "Facebook stops reloading the feed when you come back to the tab"
+        },
+        {
+          "key": "ext-fb-stop-feed",
+          "children": [],
+          "title": "Pause Facebook feeds",
+          "icon": "fa-solid fa-pause",
+          "link": "/autorun",
+          "description": "Fewer distractions: block home, stories, video, groups, marketplace"
+        },
+        {
+          "key": "ext-insta-seen",
+          "children": [],
+          "title": "Anonymous Instagram story viewer",
+          "icon": "fa-brands fa-instagram",
+          "link": "/autorun",
+          "description": "Watch Instagram stories without \"seen\""
+        },
+        {
+          "key": "ext-insta-rightclick",
+          "children": [],
+          "title": "Right-click Instagram images",
+          "icon": "fa-solid fa-computer-mouse",
+          "link": "/autorun",
+          "description": "Enable right-click to save Instagram images"
+        },
+        {
+          "key": "ext-threads-video",
+          "children": [],
+          "title": "Threads video download button",
+          "icon": "fa-brands fa-threads",
+          "link": "/autorun",
+          "description": "Download videos in Threads posts and replies"
+        },
+        {
+          "key": "ext-tiktok-video",
+          "children": [],
+          "title": "TikTok video download button",
+          "icon": "fa-brands fa-tiktok",
+          "link": "/autorun",
+          "description": "Download watermark-free videos right on TikTok"
+        },
+        {
+          "key": "ext-tiktok-batch",
+          "children": [],
+          "title": "Bulk TikTok / Douyin download",
+          "icon": "fa-solid fa-layer-group",
+          "link": "/autorun",
+          "description": "Pick and download many videos of a TikTok/Douyin channel"
+        },
+        {
+          "key": "ext-zalo-seen",
+          "children": [],
+          "title": "Block seen on Zalo",
+          "icon": "fa-solid fa-eye-low-vision",
+          "link": "/autorun",
+          "description": "Read Zalo Web messages without \"seen\""
+        },
+        {
+          "key": "ext-zalo-typing",
+          "children": [],
+          "title": "Hide typing on Zalo",
+          "icon": "fa-solid fa-keyboard",
+          "link": "/autorun",
+          "description": "The other person cannot see you typing on Zalo Web"
+        },
+        {
+          "key": "ext-lock-web",
+          "children": [],
+          "title": "Lock websites with a password",
+          "icon": "fa-solid fa-key",
+          "link": "/autorun",
+          "description": "Password-protect Facebook, Messenger or any site"
+        },
+        {
+          "key": "ext-magnify",
+          "children": [],
+          "title": "Magnify any image",
+          "icon": "fa-solid fa-magnifying-glass-plus",
+          "link": "/autorun",
+          "description": "Hover an image and zoom, or press Ctrl twice"
+        },
+        {
+          "key": "ext-web-timer",
+          "children": [],
+          "title": "Track web time",
+          "icon": "fa-solid fa-stopwatch",
+          "link": "/autorun",
+          "description": "See how long you spend on each website per day"
+        },
+        {
+          "key": "ext-stream",
+          "children": [],
+          "title": "Detect videos on any site",
+          "icon": "fa-solid fa-satellite-dish",
+          "link": "/autorun",
+          "description": "Detects playing HLS/DASH/MP4 videos to download via Social AIO"
+        },
+        {
+          "key": "ext-block-urls",
+          "children": [],
+          "title": "Block ad links",
+          "icon": "fa-solid fa-shield-halved",
+          "link": "/autorun",
+          "description": "Warn when opening ad or fake links"
+        }
+      ],
+      "title": "Extension (free)",
+      "icon": "fa-solid fa-puzzle-piece",
+      "link": "/autorun",
+      "description": "Hide sponsored posts, right-column ads, \"People you may know\", Reels…"
     },
     {
       "key": "auto",
@@ -296,6 +505,14 @@
           "icon": "fa-solid fa-file-pdf",
           "link": "/downloader?tab=doc",
           "description": "Download-blocked Drive PDFs, Scribd, Studocu — no login"
+        },
+        {
+          "key": "link-stream",
+          "children": [],
+          "title": "Stream downloader (m3u8)",
+          "icon": "fa-solid fa-satellite-dish",
+          "link": "/downloader?tab=stream",
+          "description": "Download HLS (m3u8) / DASH (mpd) videos from any site, the extension finds the link"
         }
       ],
       "title": "Download from link",
@@ -363,6 +580,54 @@
           "icon": "fa-solid fa-location-dot",
           "link": "/ip-location",
           "description": "Locate many IP addresses"
+        },
+        {
+          "key": "osint-github",
+          "children": [],
+          "title": "Github OSINT",
+          "icon": "fa-brands fa-github",
+          "link": "/github-osint",
+          "description": "Look up info and emails from a Github account"
+        },
+        {
+          "key": "osint-cheat",
+          "children": [],
+          "title": "OSINT cheat sheets",
+          "icon": "fa-solid fa-shield-halved",
+          "link": "/cheat-sheets",
+          "description": "Cheat sheets of investigation tricks"
+        },
+        {
+          "key": "osint-meta",
+          "children": [],
+          "title": "MetaOSINT",
+          "icon": "fa-solid fa-infinity",
+          "link": "/metaosint",
+          "description": "Directory of hundreds of OSINT tools"
+        },
+        {
+          "key": "osint-sources",
+          "children": [],
+          "title": "OSINT sources",
+          "icon": "fa-solid fa-book",
+          "link": "/osint-sources",
+          "description": "Collected data sources for investigations"
+        },
+        {
+          "key": "osint-webcheck",
+          "children": [],
+          "title": "WebCheck",
+          "icon": "fa-solid fa-compress",
+          "link": "/webcheck",
+          "description": "Analyse a website: IP, DNS, SSL, tech stack…"
+        },
+        {
+          "key": "osint-map",
+          "children": [],
+          "title": "Vietnam provinces map",
+          "icon": "fa-solid fa-map",
+          "link": "/map",
+          "description": "New Vietnam provinces map after merger"
         }
       ],
       "title": "OSINT",
@@ -404,12 +669,365 @@
           "icon": "fa-solid fa-dharmachakra",
           "link": "/wheel-of-names",
           "description": "Pick the wheel result in advance"
+        },
+        {
+          "key": "utils-blog",
+          "children": [],
+          "title": "Social AIO Blog",
+          "icon": "fa-solid fa-newspaper",
+          "link": "/blog",
+          "description": "Guides and tips for Facebook, Instagram, TikTok"
+        },
+        {
+          "key": "utils-web-timer",
+          "children": [],
+          "title": "Web timer",
+          "icon": "fa-solid fa-clock",
+          "link": "/web-timer",
+          "description": "Stats of time spent on each website"
+        },
+        {
+          "key": "utils-time-horizon",
+          "children": [],
+          "title": "Time Horizon",
+          "icon": "fa-solid fa-timeline",
+          "link": "/time-horizon",
+          "description": "Interactive world history timeline"
+        },
+        {
+          "key": "utils-tv-remote",
+          "children": [],
+          "title": "TV remote",
+          "icon": "fa-solid fa-tv",
+          "link": "/tv-remote",
+          "description": "Control your smart TV from the browser"
+        },
+        {
+          "key": "utils-json-crack",
+          "children": [],
+          "title": "JSON Crack",
+          "icon": "fa-solid fa-diagram-project",
+          "link": "/json-crack",
+          "description": "View JSON as a graph"
+        },
+        {
+          "key": "utils-md-word",
+          "children": [],
+          "title": "Markdown to Word",
+          "icon": "fa-solid fa-file-word",
+          "link": "/md-to-word",
+          "description": "Convert Markdown (ChatGPT, AI) to Word"
+        },
+        {
+          "key": "utils-md-editor",
+          "children": [],
+          "title": "Markdown editor",
+          "icon": "fa-solid fa-file-lines",
+          "link": "/md-editor",
+          "description": "Write and preview Markdown"
+        },
+        {
+          "key": "utils-pixel-diff",
+          "children": [],
+          "title": "Pixel diff",
+          "icon": "fa-solid fa-image",
+          "link": "/pixel-diff",
+          "description": "Find differences between 2 images"
+        },
+        {
+          "key": "utils-it-tools",
+          "children": [],
+          "title": "IT Tools",
+          "icon": "fa-solid fa-laptop-code",
+          "link": "/it-tools",
+          "description": "Handy tools for developers: encode, convert, generate…"
+        },
+        {
+          "key": "utils-online-tools",
+          "children": [],
+          "title": "Online Tools",
+          "icon": "fa-solid fa-screwdriver-wrench",
+          "link": "/online-tools",
+          "description": "Collection of common online tools"
+        },
+        {
+          "key": "utils-cyberchef",
+          "children": [],
+          "title": "CyberChef",
+          "icon": "fa-solid fa-utensils",
+          "link": "/cyberchef",
+          "description": "Decode, encode and analyse data"
+        },
+        {
+          "key": "utils-webcrack",
+          "children": [],
+          "title": "Webcrack",
+          "icon": "fa-solid fa-code",
+          "link": "/webcrack",
+          "description": "Deobfuscate JavaScript code"
+        },
+        {
+          "key": "utils-de4js",
+          "children": [],
+          "title": "De4Js",
+          "icon": "fa-solid fa-code",
+          "link": "/de4js",
+          "description": "JavaScript deobfuscator"
+        },
+        {
+          "key": "utils-deobfjs",
+          "children": [],
+          "title": "DeObf Js",
+          "icon": "fa-solid fa-code",
+          "link": "/deobfjs",
+          "description": "JavaScript deobfuscator"
+        },
+        {
+          "key": "utils-thiings",
+          "children": [],
+          "title": "Thiings",
+          "icon": "fa-solid fa-cubes",
+          "link": "/thiings",
+          "description": "Free 3D icon library"
+        },
+        {
+          "key": "utils-simple-icons",
+          "children": [],
+          "title": "Simple Icons",
+          "icon": "fa-solid fa-icons",
+          "link": "/simple-icons",
+          "description": "SVG brand logo icons"
+        },
+        {
+          "key": "utils-iconify",
+          "children": [],
+          "title": "Iconify",
+          "icon": "fa-solid fa-icons",
+          "link": "/iconify",
+          "description": "Hundreds of thousands of free icons"
+        },
+        {
+          "key": "utils-emojidb",
+          "children": [],
+          "title": "EmojiDB",
+          "icon": "fa-solid fa-face-smile",
+          "link": "/emojidb",
+          "description": "Find and copy emojis"
+        },
+        {
+          "key": "utils-cheatsh",
+          "children": [],
+          "title": "Cheat.sh",
+          "icon": "fa-solid fa-terminal",
+          "link": "/cheatsh",
+          "description": "Quick programming command cheat sheets"
+        },
+        {
+          "key": "utils-useful-scripts",
+          "children": [],
+          "title": "Useful Scripts",
+          "icon": "fa-solid fa-s",
+          "link": "/useful-scripts",
+          "description": "Extension with 200+ handy scripts for any site"
+        },
+        {
+          "key": "utils-aiobuff",
+          "children": [],
+          "title": "AIO Buff",
+          "icon": "fa-solid fa-rocket",
+          "link": "/aiobuff",
+          "description": "Like, view, follow boosting service for many platforms"
+        },
+        {
+          "key": "utils-unlock",
+          "children": [],
+          "title": "Account unlock",
+          "icon": "fa-solid fa-unlock",
+          "link": "/store/unlock",
+          "description": "Help unlocking and recovering Facebook accounts"
+        },
+        {
+          "key": "utils-accounts",
+          "children": [],
+          "title": "Accounts store",
+          "icon": "fa-solid fa-user",
+          "link": "/store/accounts",
+          "description": "Buy accounts for various platforms"
         }
       ],
       "title": "Utilities",
       "icon": "fa-solid fa-toolbox",
       "link": "/desktop",
       "description": "All extra tools, OSINT and games on one Windows/macOS-style desktop — open many windows at once"
+    },
+    {
+      "key": "games",
+      "children": [
+        {
+          "key": "game-hub",
+          "children": [],
+          "title": "Gamehub24",
+          "icon": "fa-solid fa-chess-board",
+          "link": "/gamehub24",
+          "description": "Board and online games with friends"
+        },
+        {
+          "key": "game-duckrace",
+          "children": [],
+          "title": "Hack Duck Race",
+          "icon": "fa-solid fa-dice",
+          "link": "/duckrace",
+          "description": "Pick the winning duck in advance"
+        },
+        {
+          "key": "game-aurora",
+          "children": [],
+          "title": "Aurora OS",
+          "icon": "fa-brands fa-apple",
+          "link": "/aurora-os",
+          "description": "macOS-like OS in your browser"
+        },
+        {
+          "key": "game-win11",
+          "children": [],
+          "title": "Windows 11 / 10 / XP / 98 / 96",
+          "icon": "fa-brands fa-windows",
+          "link": "/win11",
+          "description": "Try classic Windows versions in the browser"
+        },
+        {
+          "key": "game-hacker",
+          "children": [],
+          "title": "Hacker Simulator",
+          "icon": "fa-solid fa-bug",
+          "link": "/hacker-simulator",
+          "description": "Pretend to be a movie hacker"
+        },
+        {
+          "key": "game-moba",
+          "children": [],
+          "title": "MOBA2D",
+          "icon": "fa-solid fa-chess-knight",
+          "link": "/lol2d",
+          "description": "2D MOBA game in the browser"
+        },
+        {
+          "key": "game-venge",
+          "children": [],
+          "title": "Venge.io",
+          "icon": "fa-solid fa-gun",
+          "link": "/venge-io",
+          "description": "Online shooter"
+        },
+        {
+          "key": "game-zombs",
+          "children": [],
+          "title": "Zombs Royale",
+          "icon": "fa-solid fa-gun",
+          "link": "/zombsroyale",
+          "description": "2D battle royale"
+        },
+        {
+          "key": "game-pong",
+          "children": [],
+          "title": "Pong Retro / Hyper Pong",
+          "icon": "fa-solid fa-circle",
+          "link": "/pong-retro",
+          "description": "Classic pong game"
+        },
+        {
+          "key": "game-jumpking",
+          "children": [],
+          "title": "Jump King",
+          "icon": "fa-solid fa-chess-king",
+          "link": "/jump-king",
+          "description": "The famous tower jumping game"
+        },
+        {
+          "key": "game-angry",
+          "children": [],
+          "title": "Angry Birds",
+          "icon": "fa-solid fa-dove",
+          "link": "/angry-birds",
+          "description": "Slingshot the birds"
+        },
+        {
+          "key": "game-halloween",
+          "children": [],
+          "title": "Halloween Doodle",
+          "icon": "fa-solid fa-ghost",
+          "link": "/doodle-halloween",
+          "description": "Google Halloween doodle game"
+        },
+        {
+          "key": "game-sandboxels",
+          "children": [],
+          "title": "Sandboxels",
+          "icon": "fa-solid fa-bucket",
+          "link": "/sandboxels",
+          "description": "Falling sand physics sandbox"
+        },
+        {
+          "key": "game-mandelbrot",
+          "children": [],
+          "title": "Mandelbrot",
+          "icon": "fa-solid fa-hurricane",
+          "link": "/mandelbrot",
+          "description": "Explore an infinite fractal"
+        },
+        {
+          "key": "game-fluid",
+          "children": [],
+          "title": "Fluid simulation",
+          "icon": "fa-solid fa-wind",
+          "link": "/webgl-fluid",
+          "description": "Paint colorful fluid with the mouse"
+        },
+        {
+          "key": "game-internet-map",
+          "children": [],
+          "title": "Internet map",
+          "icon": "fa-solid fa-map",
+          "link": "/internet-map",
+          "description": "Map of the websites of the world"
+        },
+        {
+          "key": "game-stellarium",
+          "children": [],
+          "title": "Stellarium",
+          "icon": "fa-solid fa-cloud-moon",
+          "link": "/stellarium",
+          "description": "Real-time night sky viewer"
+        },
+        {
+          "key": "game-solar",
+          "children": [],
+          "title": "Solar System",
+          "icon": "fa-solid fa-sun",
+          "link": "/solar-system",
+          "description": "3D solar system (incl. NASA version)"
+        },
+        {
+          "key": "game-asteroids",
+          "children": [],
+          "title": "Asteroids",
+          "icon": "fa-solid fa-meteor",
+          "link": "/asteroids",
+          "description": "Asteroids around Earth"
+        },
+        {
+          "key": "game-multiverse",
+          "children": [],
+          "title": "Multiverse",
+          "icon": "fa-solid fa-star-and-crescent",
+          "link": "/multiverse",
+          "description": "Scale from tiny particles to the universe"
+        }
+      ],
+      "title": "Games & fun",
+      "icon": "fa-solid fa-gamepad",
+      "link": "/gamehub24",
+      "description": "Board and online games with friends"
     }
   ]
 }
