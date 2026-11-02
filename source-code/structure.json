@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:45:58.149Z",
+  "generatedAt": "2026-11-02T04:04:04.184Z",
   "rootPath": "src",
   "structure": [
     {
@@ -132,496 +132,6 @@
                 {
                   "title": "types.ts",
                   "key": "apis/facebook/e2eeVesta/types.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                }
-              ]
-            },
-            {
-              "title": "json",
-              "key": "apis/facebook/json",
-              "type": "folder",
-              "children": [
-                {
-                  "title": "activities",
-                  "key": "apis/facebook/json/activities",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "all.json",
-                      "key": "apis/facebook/json/activities/all.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "video_watched.json",
-                      "key": "apis/facebook/json/activities/video_watched.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "comments",
-                  "key": "apis/facebook/json/comments",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "comment_data.json",
-                      "key": "apis/facebook/json/comments/comment_data.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "comment_gif.json",
-                      "key": "apis/facebook/json/comments/comment_gif.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "comment_photo.json",
-                      "key": "apis/facebook/json/comments/comment_photo.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "comment_share_group.json",
-                      "key": "apis/facebook/json/comments/comment_share_group.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "comment_share_youtube.json",
-                      "key": "apis/facebook/json/comments/comment_share_youtube.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "comment_sticker.json",
-                      "key": "apis/facebook/json/comments/comment_sticker.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "comment_video.json",
-                      "key": "apis/facebook/json/comments/comment_video.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "reply_1.json",
-                      "key": "apis/facebook/json/comments/reply_1.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "create_post",
-                  "key": "apis/facebook/json/create_post",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "upload_image.json",
-                      "key": "apis/facebook/json/create_post/upload_image.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "video_uploader_config.json",
-                      "key": "apis/facebook/json/create_post/video_uploader_config.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "groups",
-                  "key": "apis/facebook/json/groups",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "groupMemberRoot.json",
-                      "key": "apis/facebook/json/groups/groupMemberRoot.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "mem_info.json",
-                      "key": "apis/facebook/json/groups/mem_info.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "newFeed",
-                  "key": "apis/facebook/json/newFeed",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "newfeed.json",
-                      "key": "apis/facebook/json/newFeed/newfeed.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "pfbid",
-                  "key": "apis/facebook/json/pfbid",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "all.js",
-                      "key": "apis/facebook/json/pfbid/all.js",
-                      "type": "file",
-                      "extension": ".js",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "photo",
-                  "key": "apis/facebook/json/photo",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "photo_in_mediaset.json",
-                      "key": "apis/facebook/json/photo/photo_in_mediaset.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "photo_tag_layer.json",
-                      "key": "apis/facebook/json/photo/photo_tag_layer.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "posts",
-                  "key": "apis/facebook/json/posts",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "mediaset.json",
-                      "key": "apis/facebook/json/posts/mediaset.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "mediaset2.json",
-                      "key": "apis/facebook/json/posts/mediaset2.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_avatar.json",
-                      "key": "apis/facebook/json/posts/post_avatar.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_multi_photos.json",
-                      "key": "apis/facebook/json/posts/post_multi_photos.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_multi_tags.json",
-                      "key": "apis/facebook/json/posts/post_multi_tags.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_mutli_photos2.json",
-                      "key": "apis/facebook/json/posts/post_mutli_photos2.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_mutli_photos3.json",
-                      "key": "apis/facebook/json/posts/post_mutli_photos3.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_photo_in_set.json",
-                      "key": "apis/facebook/json/posts/post_photo_in_set.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_sell.json",
-                      "key": "apis/facebook/json/posts/post_sell.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_share_link.json",
-                      "key": "apis/facebook/json/posts/post_share_link.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_share_post.json",
-                      "key": "apis/facebook/json/posts/post_share_post.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_single_photo.json",
-                      "key": "apis/facebook/json/posts/post_single_photo.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_text_bg.json",
-                      "key": "apis/facebook/json/posts/post_text_bg.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_video.json",
-                      "key": "apis/facebook/json/posts/post_video.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "search",
-                  "key": "apis/facebook/json/search",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "group.json",
-                      "key": "apis/facebook/json/search/group.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "newest_posts.json",
-                      "key": "apis/facebook/json/search/newest_posts.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post_pagination.json",
-                      "key": "apis/facebook/json/search/post_pagination.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "post.json",
-                      "key": "apis/facebook/json/search/post.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "profiles.json",
-                      "key": "apis/facebook/json/search/profiles.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "shares",
-                  "key": "apis/facebook/json/shares",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "share_dialog_page.json",
-                      "key": "apis/facebook/json/shares/share_dialog_page.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "share_dialog.json",
-                      "key": "apis/facebook/json/shares/share_dialog.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "tagged",
-                  "key": "apis/facebook/json/tagged",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "posts_no_friends.json",
-                      "key": "apis/facebook/json/tagged/posts_no_friends.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    },
-                    {
-                      "title": "posts.json",
-                      "key": "apis/facebook/json/tagged/posts.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "transparency",
-                  "key": "apis/facebook/json/transparency",
-                  "type": "folder",
-                  "children": [
-                    {
-                      "title": "index.json",
-                      "key": "apis/facebook/json/transparency/index.json",
-                      "type": "file",
-                      "extension": ".json",
-                      "isLeaf": true
-                    }
-                  ]
-                },
-                {
-                  "title": "policy_center.html",
-                  "key": "apis/facebook/json/policy_center.html",
-                  "type": "file",
-                  "extension": ".html",
-                  "isLeaf": true
-                },
-                {
-                  "title": "siteData.jsonl",
-                  "key": "apis/facebook/json/siteData.jsonl",
-                  "type": "file",
-                  "extension": ".jsonl",
-                  "isLeaf": true
-                }
-              ]
-            },
-            {
-              "title": "tmp",
-              "key": "apis/facebook/tmp",
-              "type": "folder",
-              "children": [
-                {
-                  "title": "ads.ts",
-                  "key": "apis/facebook/tmp/ads.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "auto_refresh_home.ts",
-                  "key": "apis/facebook/tmp/auto_refresh_home.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "comments.ts",
-                  "key": "apis/facebook/tmp/comments.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "edit_privacy_bulk.ts",
-                  "key": "apis/facebook/tmp/edit_privacy_bulk.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "fb_bm.js",
-                  "key": "apis/facebook/tmp/fb_bm.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "friend_requests.ts",
-                  "key": "apis/facebook/tmp/friend_requests.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "groups.ts",
-                  "key": "apis/facebook/tmp/groups.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "manage_page.ts",
-                  "key": "apis/facebook/tmp/manage_page.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "page.ts",
-                  "key": "apis/facebook/tmp/page.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "search.ts",
-                  "key": "apis/facebook/tmp/search.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "story.ts",
-                  "key": "apis/facebook/tmp/story.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                },
-                {
-                  "title": "tmp.ts",
-                  "key": "apis/facebook/tmp/tmp.ts",
                   "type": "file",
                   "extension": ".ts",
                   "isLeaf": true
@@ -1028,34 +538,6 @@
           "type": "folder",
           "children": [
             {
-              "title": "json",
-              "key": "apis/instagram/json",
-              "type": "folder",
-              "children": [
-                {
-                  "title": "user_info.json",
-                  "key": "apis/instagram/json/user_info.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                }
-              ]
-            },
-            {
-              "title": "tmp",
-              "key": "apis/instagram/tmp",
-              "type": "folder",
-              "children": [
-                {
-                  "title": "igstory.ts",
-                  "key": "apis/instagram/tmp/igstory.ts",
-                  "type": "file",
-                  "extension": ".ts",
-                  "isLeaf": true
-                }
-              ]
-            },
-            {
               "title": "CLAUDE.md",
               "key": "apis/instagram/CLAUDE.md",
               "type": "file",
@@ -1328,167 +810,6 @@
           "key": "apis/zalo",
           "type": "folder",
           "children": [
-            {
-              "title": "json",
-              "key": "apis/zalo/json",
-              "type": "folder",
-              "children": [
-                {
-                  "title": "board_oneone.json",
-                  "key": "apis/zalo/json/board_oneone.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "config.json",
-                  "key": "apis/zalo/json/config.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "conversations.json",
-                  "key": "apis/zalo/json/conversations.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "friends.json",
-                  "key": "apis/zalo/json/friends.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "get_fr_profiles.js",
-                  "key": "apis/zalo/json/get_fr_profiles.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "groups.json",
-                  "key": "apis/zalo/json/groups.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "login_setting.json",
-                  "key": "apis/zalo/json/login_setting.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "msg_suggest_keyword.json",
-                  "key": "apis/zalo/json/msg_suggest_keyword.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                },
-                {
-                  "title": "phones.txt",
-                  "key": "apis/zalo/json/phones.txt",
-                  "type": "file",
-                  "extension": ".txt",
-                  "isLeaf": true
-                },
-                {
-                  "title": "preload_conver.js",
-                  "key": "apis/zalo/json/preload_conver.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "send_group_msg.js",
-                  "key": "apis/zalo/json/send_group_msg.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "support_country.json",
-                  "key": "apis/zalo/json/support_country.json",
-                  "type": "file",
-                  "extension": ".json",
-                  "isLeaf": true
-                }
-              ]
-            },
-            {
-              "title": "tmp",
-              "key": "apis/zalo/tmp",
-              "type": "folder",
-              "children": [
-                {
-                  "title": "apis_fBUP.js",
-                  "key": "apis/zalo/tmp/apis_fBUP.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "auth_X4fA.js",
-                  "key": "apis/zalo/tmp/auth_X4fA.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "conversations_XS0u.js",
-                  "key": "apis/zalo/tmp/conversations_XS0u.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "convLabel_l+Gc.js",
-                  "key": "apis/zalo/tmp/convLabel_l+Gc.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "default-embed-web-startup.94813401fe73d2c44e56.js",
-                  "key": "apis/zalo/tmp/default-embed-web-startup.94813401fe73d2c44e56.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "downloadFile_kWKb.js",
-                  "key": "apis/zalo/tmp/downloadFile_kWKb.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "friend_UiPd.js",
-                  "key": "apis/zalo/tmp/friend_UiPd.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "func_dThN.js",
-                  "key": "apis/zalo/tmp/func_dThN.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                },
-                {
-                  "title": "search_xvGD.js",
-                  "key": "apis/zalo/tmp/search_xvGD.js",
-                  "type": "file",
-                  "extension": ".js",
-                  "isLeaf": true
-                }
-              ]
-            },
             {
               "title": "core.ts",
               "key": "apis/zalo/core.ts",
@@ -6447,6 +5768,426 @@
       "key": "test",
       "type": "folder",
       "children": [
+        {
+          "title": "fixtures",
+          "key": "test/fixtures",
+          "type": "folder",
+          "children": [
+            {
+              "title": "facebook",
+              "key": "test/fixtures/facebook",
+              "type": "folder",
+              "children": [
+                {
+                  "title": "activities",
+                  "key": "test/fixtures/facebook/activities",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "all.json",
+                      "key": "test/fixtures/facebook/activities/all.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "video_watched.json",
+                      "key": "test/fixtures/facebook/activities/video_watched.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "comments",
+                  "key": "test/fixtures/facebook/comments",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "comment_data.json",
+                      "key": "test/fixtures/facebook/comments/comment_data.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "comment_gif.json",
+                      "key": "test/fixtures/facebook/comments/comment_gif.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "comment_photo.json",
+                      "key": "test/fixtures/facebook/comments/comment_photo.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "comment_share_group.json",
+                      "key": "test/fixtures/facebook/comments/comment_share_group.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "comment_share_youtube.json",
+                      "key": "test/fixtures/facebook/comments/comment_share_youtube.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "comment_sticker.json",
+                      "key": "test/fixtures/facebook/comments/comment_sticker.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "comment_video.json",
+                      "key": "test/fixtures/facebook/comments/comment_video.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "reply_1.json",
+                      "key": "test/fixtures/facebook/comments/reply_1.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "create_post",
+                  "key": "test/fixtures/facebook/create_post",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "upload_image.json",
+                      "key": "test/fixtures/facebook/create_post/upload_image.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "video_uploader_config.json",
+                      "key": "test/fixtures/facebook/create_post/video_uploader_config.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "groups",
+                  "key": "test/fixtures/facebook/groups",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "groupMemberRoot.json",
+                      "key": "test/fixtures/facebook/groups/groupMemberRoot.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "mem_info.json",
+                      "key": "test/fixtures/facebook/groups/mem_info.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "newFeed",
+                  "key": "test/fixtures/facebook/newFeed",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "newfeed.json",
+                      "key": "test/fixtures/facebook/newFeed/newfeed.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "pfbid",
+                  "key": "test/fixtures/facebook/pfbid",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "all.js",
+                      "key": "test/fixtures/facebook/pfbid/all.js",
+                      "type": "file",
+                      "extension": ".js",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "photo",
+                  "key": "test/fixtures/facebook/photo",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "photo_in_mediaset.json",
+                      "key": "test/fixtures/facebook/photo/photo_in_mediaset.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "photo_tag_layer.json",
+                      "key": "test/fixtures/facebook/photo/photo_tag_layer.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "posts",
+                  "key": "test/fixtures/facebook/posts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "mediaset.json",
+                      "key": "test/fixtures/facebook/posts/mediaset.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "mediaset2.json",
+                      "key": "test/fixtures/facebook/posts/mediaset2.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_avatar.json",
+                      "key": "test/fixtures/facebook/posts/post_avatar.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_multi_photos.json",
+                      "key": "test/fixtures/facebook/posts/post_multi_photos.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_multi_tags.json",
+                      "key": "test/fixtures/facebook/posts/post_multi_tags.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_mutli_photos2.json",
+                      "key": "test/fixtures/facebook/posts/post_mutli_photos2.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_mutli_photos3.json",
+                      "key": "test/fixtures/facebook/posts/post_mutli_photos3.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_photo_in_set.json",
+                      "key": "test/fixtures/facebook/posts/post_photo_in_set.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_sell.json",
+                      "key": "test/fixtures/facebook/posts/post_sell.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_share_link.json",
+                      "key": "test/fixtures/facebook/posts/post_share_link.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_share_post.json",
+                      "key": "test/fixtures/facebook/posts/post_share_post.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_single_photo.json",
+                      "key": "test/fixtures/facebook/posts/post_single_photo.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_text_bg.json",
+                      "key": "test/fixtures/facebook/posts/post_text_bg.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_video.json",
+                      "key": "test/fixtures/facebook/posts/post_video.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "search",
+                  "key": "test/fixtures/facebook/search",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "group.json",
+                      "key": "test/fixtures/facebook/search/group.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "newest_posts.json",
+                      "key": "test/fixtures/facebook/search/newest_posts.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post_pagination.json",
+                      "key": "test/fixtures/facebook/search/post_pagination.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "post.json",
+                      "key": "test/fixtures/facebook/search/post.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "profiles.json",
+                      "key": "test/fixtures/facebook/search/profiles.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "shares",
+                  "key": "test/fixtures/facebook/shares",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "share_dialog_page.json",
+                      "key": "test/fixtures/facebook/shares/share_dialog_page.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "share_dialog.json",
+                      "key": "test/fixtures/facebook/shares/share_dialog.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "tagged",
+                  "key": "test/fixtures/facebook/tagged",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "posts_no_friends.json",
+                      "key": "test/fixtures/facebook/tagged/posts_no_friends.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    },
+                    {
+                      "title": "posts.json",
+                      "key": "test/fixtures/facebook/tagged/posts.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "transparency",
+                  "key": "test/fixtures/facebook/transparency",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "title": "index.json",
+                      "key": "test/fixtures/facebook/transparency/index.json",
+                      "type": "file",
+                      "extension": ".json",
+                      "isLeaf": true
+                    }
+                  ]
+                },
+                {
+                  "title": "policy_center.html",
+                  "key": "test/fixtures/facebook/policy_center.html",
+                  "type": "file",
+                  "extension": ".html",
+                  "isLeaf": true
+                },
+                {
+                  "title": "siteData.jsonl",
+                  "key": "test/fixtures/facebook/siteData.jsonl",
+                  "type": "file",
+                  "extension": ".jsonl",
+                  "isLeaf": true
+                }
+              ]
+            },
+            {
+              "title": "instagram",
+              "key": "test/fixtures/instagram",
+              "type": "folder",
+              "children": [
+                {
+                  "title": "user_info.json",
+                  "key": "test/fixtures/instagram/user_info.json",
+                  "type": "file",
+                  "extension": ".json",
+                  "isLeaf": true
+                }
+              ]
+            }
+          ]
+        },
         {
           "title": "setup.ts",
           "key": "test/setup.ts",
