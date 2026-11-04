@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T16:32:41.687Z",
+  "updatedAt": "2026-11-04T03:43:07.205Z",
   "items": [
     {
       "label": "Search features",
@@ -66,6 +66,13 @@
       "label": "Downloader",
       "path": "/downloader",
       "icon": "fa-solid fa-arrow-down fa-lg"
+    },
+    {
+      "label": "OSINT Investigator",
+      "path": "/osint",
+      "icon": "fa-solid fa-user-secret fa-lg",
+      "badge": "NEW",
+      "dontNeedExt": true
     },
     {
       "divider": true

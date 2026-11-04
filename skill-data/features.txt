@@ -67,7 +67,8 @@ route | title | description
 /zalo | Zalo manager | Friends, groups, members, mutual groups, user lookup by phone
 /youtube-subs | YouTube | View and unsubscribe YouTube channels in bulk
 /youtube-subs | Subscriptions | View and unsubscribe YouTube channels in bulk
-/search | OSINT | Useful search tools for detectives
+/osint | OSINT | Enter a FB link, username, email, phone, domain, IP… → checks ~400 sites, whois, DNS, Gravatar; every clue is clickable
+/osint | OSINT Investigator | Enter a FB link, username, email, phone, domain, IP… → checks ~400 sites, whois, DNS, Gravatar; every clue is clickable
 /search | Search tools | Useful search tools for detectives
 /ip-info | IP info | Everything about an IP address
 /ip-location | Bulk IP location | Locate many IP addresses

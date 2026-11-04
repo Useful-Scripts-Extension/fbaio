@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T16:41:47.547Z",
+  "updatedAt": "2026-11-04T03:43:07.206Z",
   "features": [
     {
       "key": "facebook",
@@ -558,6 +558,14 @@
       "key": "osint",
       "children": [
         {
+          "key": "osint-investigator",
+          "children": [],
+          "title": "OSINT Investigator",
+          "icon": "fa-solid fa-user-secret",
+          "link": "/osint",
+          "description": "Enter a FB link, username, email, phone, domain, IP… → checks ~400 sites, whois, DNS, Gravatar; every clue is clickable"
+        },
+        {
           "key": "osint-search",
           "children": [],
           "title": "Search tools",
@@ -632,8 +640,8 @@
       ],
       "title": "OSINT",
       "icon": "fa-solid fa-arrow-pointer",
-      "link": "/search",
-      "description": "Useful search tools for detectives"
+      "link": "/osint",
+      "description": "Enter a FB link, username, email, phone, domain, IP… → checks ~400 sites, whois, DNS, Gravatar; every clue is clickable"
     },
     {
       "key": "utils",

@@ -10,6 +10,7 @@ Features
 ---
 /bulk-downloader | Bulk Downloader [HOT]
 /downloader | Downloader
+/osint | OSINT Investigator [NEW] (no-ext)
 ---
 Automation
   /autorun | AutoRun [HOT]
