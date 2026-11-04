@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T03:43:07.205Z",
+  "updatedAt": "2026-11-04T04:40:34.154Z",
   "items": [
     {
       "label": "Search features",
@@ -398,6 +398,12 @@
           "label": "TV Remote",
           "path": "/tv-remote",
           "icon": "fa-solid fa-tv",
+          "badge": "NEW"
+        },
+        {
+          "label": "Every Noise (music genres)",
+          "path": "/everynoise",
+          "icon": "fa-solid fa-headphones",
           "badge": "NEW"
         },
         {

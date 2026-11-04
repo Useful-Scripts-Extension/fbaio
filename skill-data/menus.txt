@@ -70,6 +70,7 @@ Utils
   /blog | Social AIO Blog
   /time-horizon | Time Horizon [NEW]
   /tv-remote | TV Remote [NEW]
+  /everynoise | Every Noise (music genres) [NEW]
   /json-to-excel | JSON to Excel [HOT] (no-ext)
   /json-crack | JSON Crack
   /md-to-word | Markdown to Word [NEW]
