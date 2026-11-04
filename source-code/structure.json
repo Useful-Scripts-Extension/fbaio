@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T03:43:04.764Z",
+  "generatedAt": "2026-11-04T11:19:00.888Z",
   "rootPath": "src",
   "structure": [
     {
@@ -2162,6 +2162,13 @@
               "isLeaf": true
             },
             {
+              "title": "EmptyState.tsx",
+              "key": "components/ui/EmptyState.tsx",
+              "type": "file",
+              "extension": ".tsx",
+              "isLeaf": true
+            },
+            {
               "title": "GradientButton.tsx",
               "key": "components/ui/GradientButton.tsx",
               "type": "file",
@@ -2215,6 +2222,20 @@
               "key": "components/ui/ui.css",
               "type": "file",
               "extension": ".css",
+              "isLeaf": true
+            },
+            {
+              "title": "ui.test.tsx",
+              "key": "components/ui/ui.test.tsx",
+              "type": "file",
+              "extension": ".tsx",
+              "isLeaf": true
+            },
+            {
+              "title": "useConfirm.ts",
+              "key": "components/ui/useConfirm.ts",
+              "type": "file",
+              "extension": ".ts",
               "isLeaf": true
             }
           ]
@@ -5391,6 +5412,13 @@
           "isLeaf": true
         },
         {
+          "title": "Checkout.css",
+          "key": "screens/Checkout.css",
+          "type": "file",
+          "extension": ".css",
+          "isLeaf": true
+        },
+        {
           "title": "Checkout.tsx",
           "key": "screens/Checkout.tsx",
           "type": "file",
@@ -6303,6 +6331,13 @@
         {
           "title": "setup.ts",
           "key": "test/setup.ts",
+          "type": "file",
+          "extension": ".ts",
+          "isLeaf": true
+        },
+        {
+          "title": "uiGate.test.ts",
+          "key": "test/uiGate.test.ts",
           "type": "file",
           "extension": ".ts",
           "isLeaf": true
