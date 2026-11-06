@@ -1,0 +1,10 @@
+import{q as e}from"./DHDynl6g.js";import{b as t}from"./DEdFxTVb.js";var n,r,u,o,i={exports:{}},a={},c={exports:{}},s={};function f(){return r||(r=1,c.exports=function(){if(n)return s;n=1;var e=t(),r="function"==typeof Object.is?Object.is:function(e,t){return e===t&&(0!==e||1/e==1/t)||e!=e&&t!=t},u=e.useState,o=e.useEffect,i=e.useLayoutEffect,a=e.useDebugValue;function c(e){var t=e.getSnapshot;e=e.value;try{var n=t();return!r(e,n)}catch(u){return!0}}var f="undefined"==typeof window||void 0===window.document||void 0===window.document.createElement?function(e,t){return t()}:function(e,t){var n=t(),r=u({inst:{value:n,getSnapshot:t}}),s=r[0].inst,f=r[1];return i((function(){s.value=n,s.getSnapshot=t,c(s)&&f({inst:s})}),[e,n,t]),o((function(){return c(s)&&f({inst:s}),e((function(){c(s)&&f({inst:s})}))}),[e]),a(n),n};return s.useSyncExternalStore=void 0!==e.useSyncExternalStore?e.useSyncExternalStore:f,s}()),c.exports}
+/**
+ * @license React
+ * use-sync-external-store-shim/with-selector.production.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */const l=e((o||(o=1,i.exports=function(){if(u)return a;u=1;var e=t(),n=f(),r="function"==typeof Object.is?Object.is:function(e,t){return e===t&&(0!==e||1/e==1/t)||e!=e&&t!=t},o=n.useSyncExternalStore,i=e.useRef,c=e.useEffect,s=e.useMemo,l=e.useDebugValue;return a.useSyncExternalStoreWithSelector=function(e,t,n,u,a){var f=i(null);if(null===f.current){var v={hasValue:!1,value:null};f.current=v}else v=f.current;f=s((function(){function e(e){if(!c){if(c=!0,o=e,e=u(e),void 0!==a&&v.hasValue){var t=v.value;if(a(t,e))return i=t}return i=e}if(t=i,r(o,e))return t;var n=u(e);return void 0!==a&&a(t,n)?(o=e,t):(o=e,i=n)}var o,i,c=!1,s=void 0===n?null:n;return[function(){return e(t())},null===s?void 0:function(){return e(s())}]}),[t,n,u,a]);var p=o(e,f[0],f[1]);return c((function(){v.hasValue=!0,v.value=p}),[p]),l(p),p},a}()),i.exports));export{l as u};

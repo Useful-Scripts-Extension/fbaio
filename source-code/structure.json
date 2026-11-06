@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T02:52:36.184Z",
+  "generatedAt": "2026-11-06T17:37:58.009Z",
   "rootPath": "src",
   "structure": [
     {
@@ -6592,6 +6592,13 @@
           "key": "utils/smoothScroll.js",
           "type": "file",
           "extension": ".js",
+          "isLeaf": true
+        },
+        {
+          "title": "versionManager.firstVisit.test.ts",
+          "key": "utils/versionManager.firstVisit.test.ts",
+          "type": "file",
+          "extension": ".ts",
           "isLeaf": true
         },
         {

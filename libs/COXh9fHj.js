@@ -1,0 +1,1 @@
+import{f as s}from"./dso8-jf3.js";function t(t){const n=this;n.parser=function(o){return s(o,{...n.data("settings"),...t,extensions:n.data("micromarkExtensions")||[],mdastExtensions:n.data("fromMarkdownExtensions")||[]})}}export{t as r};
