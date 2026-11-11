@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T17:37:58.009Z",
+  "generatedAt": "2026-11-11T09:47:29.314Z",
   "rootPath": "src",
   "structure": [
     {
@@ -209,6 +209,13 @@
               "isLeaf": true
             },
             {
+              "title": "CLAUDE.md",
+              "key": "apis/facebook/CLAUDE.md",
+              "type": "file",
+              "extension": ".md",
+              "isLeaf": true
+            },
+            {
               "title": "comments.test.ts",
               "key": "apis/facebook/comments.test.ts",
               "type": "file",
@@ -232,6 +239,20 @@
             {
               "title": "e2ee.ts",
               "key": "apis/facebook/e2ee.ts",
+              "type": "file",
+              "extension": ".ts",
+              "isLeaf": true
+            },
+            {
+              "title": "feedback.test.ts",
+              "key": "apis/facebook/feedback.test.ts",
+              "type": "file",
+              "extension": ".ts",
+              "isLeaf": true
+            },
+            {
+              "title": "feedback.ts",
+              "key": "apis/facebook/feedback.ts",
               "type": "file",
               "extension": ".ts",
               "isLeaf": true
