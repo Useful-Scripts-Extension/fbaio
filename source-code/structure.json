@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:47:29.314Z",
+  "generatedAt": "2026-11-12T07:26:46.752Z",
   "rootPath": "src",
   "structure": [
     {
@@ -6613,6 +6613,20 @@
           "key": "utils/smoothScroll.js",
           "type": "file",
           "extension": ".js",
+          "isLeaf": true
+        },
+        {
+          "title": "telemetry.test.ts",
+          "key": "utils/telemetry.test.ts",
+          "type": "file",
+          "extension": ".ts",
+          "isLeaf": true
+        },
+        {
+          "title": "telemetry.ts",
+          "key": "utils/telemetry.ts",
+          "type": "file",
+          "extension": ".ts",
           "isLeaf": true
         },
         {
