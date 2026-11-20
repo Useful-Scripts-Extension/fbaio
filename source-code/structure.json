@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T07:26:46.752Z",
+  "generatedAt": "2026-11-20T18:20:30.319Z",
   "rootPath": "src",
   "structure": [
     {
@@ -6485,6 +6485,20 @@
         {
           "title": "extension.ts",
           "key": "utils/extension.ts",
+          "type": "file",
+          "extension": ".ts",
+          "isLeaf": true
+        },
+        {
+          "title": "fbErrorHint.test.ts",
+          "key": "utils/fbErrorHint.test.ts",
+          "type": "file",
+          "extension": ".ts",
+          "isLeaf": true
+        },
+        {
+          "title": "fbErrorHint.ts",
+          "key": "utils/fbErrorHint.ts",
           "type": "file",
           "extension": ".ts",
           "isLeaf": true
