@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T18:20:30.319Z",
+  "generatedAt": "2026-11-25T01:42:21.476Z",
   "rootPath": "src",
   "structure": [
     {
@@ -2644,6 +2644,13 @@
           "key": "constants/lastUpdate.json",
           "type": "file",
           "extension": ".json",
+          "isLeaf": true
+        },
+        {
+          "title": "promo.ts",
+          "key": "constants/promo.ts",
+          "type": "file",
+          "extension": ".ts",
           "isLeaf": true
         },
         {
