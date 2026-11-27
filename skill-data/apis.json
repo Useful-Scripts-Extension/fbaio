@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T17:01:36.480Z",
+  "updatedAt": "2026-11-27T07:14:34.982Z",
   "apis": [
     {
       "id": "get_fb_page_transparency",
@@ -4522,6 +4522,65 @@
         "posts"
       ],
       "updated": "2026-03-08"
+    },
+    {
+      "id": "create_post",
+      "platforms": [
+        "facebook"
+      ],
+      "name": {
+        "en": "Create Post",
+        "vi": "Đăng bài"
+      },
+      "description": "Post text to your own profile or to a group. To post to a Page: switch to that Page on Facebook first",
+      "params": [
+        {
+          "name": "message",
+          "type": "string",
+          "required": true,
+          "description": "Post content"
+        },
+        {
+          "name": "target",
+          "type": "string",
+          "required": false,
+          "description": "Group link / ID. Empty = your own profile"
+        },
+        {
+          "name": "privacy",
+          "type": "string",
+          "required": false,
+          "description": "Who can see (profile posts only)",
+          "default": "SELF",
+          "values": [
+            {
+              "value": "SELF",
+              "label": "🔒 Only me"
+            },
+            {
+              "value": "FRIENDS",
+              "label": "👥 Friends"
+            },
+            {
+              "value": "EVERYONE",
+              "label": "🌏 Public"
+            }
+          ]
+        }
+      ],
+      "response": [
+        {
+          "name": "url",
+          "type": "string",
+          "description": "Link of the new post"
+        }
+      ],
+      "tags": [
+        "facebook",
+        "upload",
+        "posts"
+      ],
+      "updated": "2026-11-27"
     },
     {
       "id": "get_user_video",

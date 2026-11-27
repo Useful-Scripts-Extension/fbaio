@@ -1,8 +1,8 @@
-# Social AIO (FB AIO) API index — 150 APIs — generated 2026-10-16
+# Social AIO (FB AIO) API index — 151 APIs — generated 2026-11-27
 # Format: id — name | params (* required, =default, {allowed|values}) | returns
 # Full details (param descriptions, types): apis.json. Usage guide: guide.md
 
-## facebook (132)
+## facebook (133)
 get_fb_page_transparency — Get Facebook page transparency info (Support both page and user) | params: url* | returns: info
 get_fb_page_authenticity — Get Facebook page authenticity info (Support both page and user) | params: url* | returns: info
 get_fb_group_member_info — Get member info of Facebook group (Joined time, signals, recent photos, recent activity, ...) | params: group_url*, user_url* | returns: info
@@ -131,6 +131,7 @@ delete_archived_story — Delete Archived Story (Delete an archived story) | par
 get_tagged_video — Get Tagged Videos (Get list of videos a user is tagged in) | params: url*, cursor | returns: taggedVideo
 get_all_message_themes — Get All Message Themes (Get messenger theme choices) | params: (none) | returns: -
 get_post_format_presets — Post Format Presets (Get preset backgrounds for text status) | params: (none) | returns: presets
+create_post — Create Post (Post text to your own profile or to a group. To post to a Page: switch to that Page on Facebook first) | params: message*, target, privacy{SELF|FRIENDS|EVERYONE} | returns: url
 get_user_video — Get User Videos (Get videos uploaded by user) | params: url*, type, cursor | returns: result
 get_group_video — Get Group Videos (Get videos uploaded in a group) | params: url*, cursor | returns: result
 get_page_video — Get Page's Videos (Get page uploaded videos) | params: url*, cursor | returns: result
